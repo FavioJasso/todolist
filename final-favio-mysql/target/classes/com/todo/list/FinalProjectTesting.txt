@@ -1,0 +1,134 @@
+(base) faviojasso@Favios-Air final-favio-mysql %  cd /Users/faviojasso/Downloads
+/final-favio-mysql ; /usr/bin/env /Library/Java/JavaVirtualMachines/temurin-21.j
+dk/Contents/Home/bin/java @/var/folders/5_/yy_nst0n1sdgwhwh9y82m7qh0000gn/T/cp_3
+v5s2otrb8kgaivpagcufaxf6.argfile com.todo.list.TodolistProject 
+Database and table created successfully.
+Connection to MySQL database established successfully.
+------ ToDoList Menu ------
+1. Display ToDo List
+2. Add Task
+3. Update Task Status
+4. Remove Task
+0. Exit
+Enter your choice: 1
+ToDo list:
+1)  ID:1 : Project Showcase - Due: 2024-04-25 - Status: COMPLETED
+2)  ID:2 : Meet with David - Due: 2024-04-23 - Status: IN_PROGRESS
+3)  ID:4 : Water Plant - Due: 2024-04-26 - Status: IN_PROGRESS
+4)  ID:6 : Playing Smash - Due: 2024-04-29 - Status: NOT_STARTED
+5)  ID:7 : do the dance - Due: 2024-05-16 - Status: IN_PROGRESS
+6)  ID:8 : grade assignments - Due: 2024-05-07 - Status: IN_PROGRESS
+7)  ID:9 : Complete Queue assigment - Due: 2024-05-02 - Status: IN_PROGRESS
+8)  ID:10 : Take wifw to dibnnwr - Due: 2024-05-03 - Status: NOT_STARTED
+------ ToDoList Menu ------
+1. Display ToDo List
+2. Add Task
+3. Update Task Status
+4. Remove Task
+0. Exit
+Enter your choice: 2
+ToDo list:
+1)  ID:1 : Project Showcase - Due: 2024-04-25 - Status: COMPLETED
+2)  ID:2 : Meet with David - Due: 2024-04-23 - Status: IN_PROGRESS
+3)  ID:4 : Water Plant - Due: 2024-04-26 - Status: IN_PROGRESS
+4)  ID:6 : Playing Smash - Due: 2024-04-29 - Status: NOT_STARTED
+5)  ID:7 : do the dance - Due: 2024-05-16 - Status: IN_PROGRESS
+6)  ID:8 : grade assignments - Due: 2024-05-07 - Status: IN_PROGRESS
+7)  ID:9 : Complete Queue assigment - Due: 2024-05-02 - Status: IN_PROGRESS
+8)  ID:10 : Take wifw to dibnnwr - Due: 2024-05-03 - Status: NOT_STARTED
+Enter task description: Final Project Testing
+Enter due date (yyyy-MM-dd): 2024-05-06
+ToDoItem added to the database.
+1)  ID:11 : Final Project Testing - Due: Mon May 06 00:00:00 EDT 2024 - Status: NOT_STARTED
+------ ToDoList Menu ------
+1. Display ToDo List
+2. Add Task
+3. Update Task Status
+4. Remove Task
+0. Exit
+Enter your choice: 33
+Invalid choice. Please enter a valid option.
+------ ToDoList Menu ------
+1. Display ToDo List
+2. Add Task
+3. Update Task Status
+4. Remove Task
+0. Exit
+Enter your choice: 3
+ToDo list:
+1)  ID:1 : Project Showcase - Due: 2024-04-25 - Status: COMPLETED
+2)  ID:2 : Meet with David - Due: 2024-04-23 - Status: IN_PROGRESS
+3)  ID:4 : Water Plant - Due: 2024-04-26 - Status: IN_PROGRESS
+4)  ID:6 : Playing Smash - Due: 2024-04-29 - Status: NOT_STARTED
+5)  ID:7 : do the dance - Due: 2024-05-16 - Status: IN_PROGRESS
+6)  ID:8 : grade assignments - Due: 2024-05-07 - Status: IN_PROGRESS
+7)  ID:9 : Complete Queue assigment - Due: 2024-05-02 - Status: IN_PROGRESS
+8)  ID:10 : Take wifw to dibnnwr - Due: 2024-05-03 - Status: NOT_STARTED
+9)  ID:11 : Final Project Testing - Due: 2024-05-06 - Status: NOT_STARTED
+Enter the task ID to update status: 11
+Enter the new status for the task (e.g., NOT_STARTED, IN_PROGRESS, COMPLETED): 
+IN_PROGRESS
+Status updated successfully in the database.
+1)  ID:11 : Final Project Testing - Due: 2024-05-06 - Status: IN_PROGRESS
+------ ToDoList Menu ------
+1. Display ToDo List
+2. Add Task
+3. Update Task Status
+4. Remove Task
+0. Exit
+Enter your choice: 1
+ToDo list:
+1)  ID:1 : Project Showcase - Due: 2024-04-25 - Status: COMPLETED
+2)  ID:2 : Meet with David - Due: 2024-04-23 - Status: IN_PROGRESS
+3)  ID:4 : Water Plant - Due: 2024-04-26 - Status: IN_PROGRESS
+4)  ID:6 : Playing Smash - Due: 2024-04-29 - Status: NOT_STARTED
+5)  ID:7 : do the dance - Due: 2024-05-16 - Status: IN_PROGRESS
+6)  ID:8 : grade assignments - Due: 2024-05-07 - Status: IN_PROGRESS
+7)  ID:9 : Complete Queue assigment - Due: 2024-05-02 - Status: IN_PROGRESS
+8)  ID:10 : Take wifw to dibnnwr - Due: 2024-05-03 - Status: NOT_STARTED
+9)  ID:11 : Final Project Testing - Due: 2024-05-06 - Status: IN_PROGRESS
+------ ToDoList Menu ------
+1. Display ToDo List
+2. Add Task
+3. Update Task Status
+4. Remove Task
+0. Exit
+Enter your choice: 4
+ToDo list:
+1)  ID:1 : Project Showcase - Due: 2024-04-25 - Status: COMPLETED
+2)  ID:2 : Meet with David - Due: 2024-04-23 - Status: IN_PROGRESS
+3)  ID:4 : Water Plant - Due: 2024-04-26 - Status: IN_PROGRESS
+4)  ID:6 : Playing Smash - Due: 2024-04-29 - Status: NOT_STARTED
+5)  ID:7 : do the dance - Due: 2024-05-16 - Status: IN_PROGRESS
+6)  ID:8 : grade assignments - Due: 2024-05-07 - Status: IN_PROGRESS
+7)  ID:9 : Complete Queue assigment - Due: 2024-05-02 - Status: IN_PROGRESS
+8)  ID:10 : Take wifw to dibnnwr - Due: 2024-05-03 - Status: NOT_STARTED
+9)  ID:11 : Final Project Testing - Due: 2024-05-06 - Status: IN_PROGRESS
+Enter the task ID to remove: 11
+ToDoItem removed from the database.
+Task removed successfully.
+------ ToDoList Menu ------
+1. Display ToDo List
+2. Add Task
+3. Update Task Status
+4. Remove Task
+0. Exit
+Enter your choice: 1
+ToDo list:
+1)  ID:1 : Project Showcase - Due: 2024-04-25 - Status: COMPLETED
+2)  ID:2 : Meet with David - Due: 2024-04-23 - Status: IN_PROGRESS
+3)  ID:4 : Water Plant - Due: 2024-04-26 - Status: IN_PROGRESS
+4)  ID:6 : Playing Smash - Due: 2024-04-29 - Status: NOT_STARTED
+5)  ID:7 : do the dance - Due: 2024-05-16 - Status: IN_PROGRESS
+6)  ID:8 : grade assignments - Due: 2024-05-07 - Status: IN_PROGRESS
+7)  ID:9 : Complete Queue assigment - Due: 2024-05-02 - Status: IN_PROGRESS
+8)  ID:10 : Take wifw to dibnnwr - Due: 2024-05-03 - Status: NOT_STARTED
+------ ToDoList Menu ------
+1. Display ToDo List
+2. Add Task
+3. Update Task Status
+4. Remove Task
+0. Exit
+Enter your choice: 0
+Exiting ToDoList. Goodbye!
+(base) faviojasso@Favios-Air final-favio-mysql % 
