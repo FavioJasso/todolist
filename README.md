@@ -38,3 +38,4 @@ The ToDo List Application is a simple yet efficient task management tool designe
 - The application integrates with the MySQL database using JDBC.
 
 - All task-related data is stored and retrieved from the ToDoItems table.
+![Preview](CMP233UML.jpg)
